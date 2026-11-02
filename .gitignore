@@ -1,0 +1,71 @@
+# ============================================================== Compiled output
+*.class
+target/
+build/
+out/
+bin/
+
+# ============================================================== IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+.project
+.classpath
+.settings/
+.factorypath
+.apt_generated/
+
+# ============================================================== OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ============================================================== Logs
+*.log
+logs/
+
+# ============================================================== Environment
+.env
+.env.local
+.env.*.local
+*.env
+
+# ============================================================== Temporary
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.cache/
+
+# ============================================================== Local chirp jar
+# Only a fallback — the intended setup is `mvn install` in the chirp repo
+# so the jar lives in ~/.m2 and never touches this folder.
+chirp-1.0.0*.jar
+
+# ============================================================== Secrets
+*.pem
+*.key
+*.p12
+*.jks
+secrets/
+
+# ============================================================== Runtime files
+# Example data files created by the persistence examples on first run.
+# Deleting them before `git status` keeps the working tree clean.
+todos.json
+todos.txt
+expenses.log
+grades.csv
